@@ -6,6 +6,7 @@ import { SiAdobeaftereffects, SiAdobeillustrator, SiAdobepremierepro, SiAdobepho
 import { FiArrowRight, FiMail, FiPhone, FiMapPin, FiSend } from "react-icons/fi";
 import { Video, Palette, Monitor } from "lucide-react";
 import profileImg from "@assets/2.png";
+import aboutImg from "@assets/3.png";
 import aeLogo from "@assets/AE_1778679475633.png";
 import aiLogo from "@assets/AI_1778679475633.png";
 import prLogo from "@assets/PR_1778679475634.png";
@@ -245,7 +246,7 @@ export default function Home() {
                   className="relative w-72 h-72 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-gold/40 shadow-2xl shadow-gold/20"
                 >
                   <img
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80"
+                    src={aboutImg}
                     alt="Agung Maghribi"
                     className="w-full h-full object-cover"
                     loading="lazy"
