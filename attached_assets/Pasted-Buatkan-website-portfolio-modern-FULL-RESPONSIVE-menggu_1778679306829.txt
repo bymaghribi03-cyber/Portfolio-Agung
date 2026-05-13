@@ -1,0 +1,545 @@
+Buatkan website portfolio modern FULL RESPONSIVE menggunakan:
+
+- React + Vite
+- Tailwind CSS
+- Framer Motion untuk animation & transition
+- React Router DOM
+- React Icons
+- Swiper.js untuk testimonial slider
+- Deploy-ready untuk Replit.com
+- Struktur clean code & reusable components
+- Smooth scrolling
+- Hover animation
+- Loading transition
+- Responsive untuk mobile, tablet, desktop
+
+INSTALL:
+npm install
+npm install react-router-dom framer-motion react-icons swiper
+
+DESAIN HARUS MIRIP PERSIS DENGAN GAMBAR REFERENSI.
+
+GUNAKAN STYLE VISUAL YANG IDENTIK DENGAN REFERENCE:
+- luxury portfolio
+- clean editorial design
+- modern minimal
+- elegant typography
+- cream + dark green + gold palette
+- rounded floating navbar
+- premium spacing
+- smooth animation
+- aesthetic modern agency look
+
+COLOR:
+- Background utama cream muda (#F5F1EA)
+- Secondary dark green (#032D1F)
+- Accent gold/mustard (#B8860B)
+
+TYPOGRAPHY:
+- kombinasi serif + sans serif
+- elegant luxury feel
+- spacing lega dan premium
+
+GLOBAL STYLE:
+- rounded-xl / rounded-3xl
+- soft shadow
+- hover glow
+- transition smooth 0.3s–0.5s
+- blur effect
+- glassmorphism ringan
+
+====================================
+SETUP ASSET & IMAGE
+====================================
+
+Buat struktur folder:
+
+src/
+ ├── assets/
+ │    ├── images/
+ │    ├── icons/
+ │    └── logos/
+ │
+ ├── components/
+ │    ├── Navbar.jsx
+ │    ├── Footer.jsx
+ │    ├── ProjectCard.jsx
+ │    ├── GalleryGrid.jsx
+ │    ├── LightboxModal.jsx
+ │    ├── YoutubeCard.jsx
+ │    ├── ServiceCard.jsx
+ │    ├── ToolIcon.jsx
+ │    └── SectionTitle.jsx
+ │
+ ├── pages/
+ │    ├── Home.jsx
+ │    ├── VideoEditing.jsx
+ │    ├── GraphicDesign.jsx
+ │    └── UIDesign.jsx
+ │
+ ├── data/
+ │    └── projects.js
+
+Gunakan import image React seperti:
+
+import profileImg from "../assets/images/profile.png"
+
+Semua gambar harus:
+- responsive
+- object-cover
+- optimized
+- lazy loading
+- hover animation
+- rounded modern corners
+- smooth transition
+- skeleton loading
+- fallback image jika gagal load
+
+Gunakan placeholder image sementara dari:
+https://images.unsplash.com/
+
+====================================
+IMAGE SECTION
+====================================
+
+1. HERO IMAGE
+- portrait professional image
+- ukuran besar
+- layered card effect
+- floating badges
+- animated glow
+- floating animation
+
+2. PROJECT IMAGE
+- modern thumbnail
+- aspect ratio konsisten
+- hover zoom effect
+- overlay gradient
+- overlay icon
+
+3. ABOUT IMAGE
+- circular image
+- glow effect
+- blur background
+
+====================================
+ICON SETUP
+====================================
+
+Gunakan react-icons.
+
+Import contoh:
+
+import { FiArrowRight } from "react-icons/fi"
+import { FaFigma } from "react-icons/fa"
+import { SiAdobephotoshop } from "react-icons/si"
+
+Gunakan icon:
+- FiArrowRight
+- FiMenu
+- FiX
+- FiMail
+- FiPhone
+- FiMapPin
+- FaInstagram
+- FaBehance
+- FaDribbble
+- FaFigma
+- SiAdobeaftereffects
+- SiAdobepremierepro
+- SiAdobeillustrator
+- SiAdobephotoshop
+- SiCanva
+
+STYLE ICON:
+- monochrome outline
+- hover warna gold
+- hover scale animation
+- ukuran konsisten
+- smooth transition
+
+====================================
+LAYOUT WEBSITE
+====================================
+
+1. NAVBAR
+- floating rounded navbar
+- sticky navbar
+- blur background saat scroll
+- logo kiri
+- menu kanan:
+  Home
+  About
+  Experience
+  Skills
+  Projects
+  Contact
+- button Hire Me warna gold
+- hamburger menu mobile
+- smooth scroll navigation
+
+2. HERO SECTION
+Kiri:
+- badge “Hello There”
+- heading besar:
+  “I'm Agung Maghribi, Video Editor, & Graphic Designer. Based in Yogyakarta.”
+- short description
+- CTA button
+
+Kanan:
+- foto profile besar
+- layered card effect
+- floating badges:
+  “UI/UX designer”
+  “Videographer”
+  “Video Editor”
+
+Tambahkan:
+- fade animation
+- slide animation
+- floating animation
+
+3. MARQUEE SECTION
+Running text infinite auto scroll:
+- App Design
+- Website Design
+- Dashboard
+- Wireframe
+
+4. SERVICES SECTION
+3 service cards:
+- Video Editing & Videography
+- Graphic Design
+- UI Design
+
+Card style:
+- rounded-3xl
+- hover lift
+- hover glow
+- shadow soft
+- icon atas kiri
+
+5. ABOUT SECTION
+Background dark green.
+
+Kiri:
+- profile image glowing circle
+
+Kanan:
+- title “Who is Agung?”
+- long description
+- floating labels
+
+6. TOOLS SECTION
+Center aligned icon tools:
+- Adobe AE
+- AI
+- PR
+- PS
+- CorelDraw
+- Figma
+- Canva
+- CapCut
+
+Gunakan monochrome icon style.
+
+====================================
+MY LATEST PROJECTS SECTION
+====================================
+
+Tampilkan 3 card project utama:
+
+1. Video Editing & Videography
+2. Graphic Designer
+3. UI Design
+
+DESAIN CARD:
+- luxury modern style
+- rounded-3xl
+- large thumbnail
+- overlay gradient
+- category badge
+- hover zoom image
+- hover lift animation
+- smooth transition
+- arrow icon kanan bawah
+
+INTERAKSI:
+Ketika card project di click:
+- arahkan ke halaman detail baru menggunakan React Router DOM
+- gunakan animated page transition
+- navbar & footer tetap tampil
+- auto scroll top
+
+ROUTES:
+- /projects/video-editing
+- /projects/graphic-design
+- /projects/ui-design
+
+====================================
+DETAIL PROJECT PAGE
+====================================
+
+STYLE:
+- premium agency portfolio
+- responsive
+- elegant spacing
+- cream + dark green palette
+- fade in animation
+- modern scrollbar
+
+====================================
+VIDEO EDITING PAGE
+====================================
+
+Tampilkan:
+- youtube thumbnail
+- title video
+- short description
+- button “Watch on YouTube”
+
+Ketika thumbnail di click:
+- buka youtube di tab baru
+
+Gunakan data array seperti:
+
+const videos = [
+ {
+   title: "Commercial Video",
+   thumbnail: "...",
+   youtube: "https://youtube.com/..."
+ }
+]
+
+LAYOUT:
+- responsive grid
+- rounded-xl
+- hover animation
+- overlay play icon
+
+====================================
+GRAPHIC DESIGN PAGE
+====================================
+
+Tampilkan:
+- poster design
+- branding
+- social media design
+- banner design
+
+Gunakan:
+- masonry grid modern
+- hover zoom image
+- rounded corners
+- lazy loading
+
+====================================
+UI DESIGN PAGE
+====================================
+
+Tampilkan:
+- mobile app UI
+- dashboard UI
+- landing page UI
+- wireframe
+
+Gunakan:
+- clean showcase layout
+- modern responsive grid
+- hover animation
+
+====================================
+LIGHTBOX / MODAL IMAGE
+====================================
+
+Ketika image gallery di click:
+- buka fullscreen modal preview
+- dark blur background
+- centered image
+- tombol close
+- next/prev navigation
+- smooth fade animation
+
+Gunakan:
+- Framer Motion
+- fixed overlay
+- ESC keyboard close
+- click outside close
+
+====================================
+TESTIMONIAL SECTION
+====================================
+
+Gunakan Swiper.js.
+
+Card style:
+- clean luxury
+- rounded-xl
+- soft shadow
+- star rating
+- animated slider
+- navigation dots bulat
+
+====================================
+FOOTER
+====================================
+
+Background dark green.
+
+4 kolom:
+- About
+- Navigation
+- Contact
+- Newsletter
+
+Tambahkan:
+- social media icon
+- hover effect
+- smooth transition
+
+====================================
+ANIMATION
+====================================
+
+Gunakan Framer Motion untuk:
+- fade up section
+- stagger animation
+- hover scale
+- image reveal
+- page transition
+- modal animation
+- floating badge
+- navbar reveal
+
+CONTOH:
+
+initial={{ opacity: 0, y: 40 }}
+animate={{ opacity: 1, y: 0 }}
+transition={{ duration: 0.6 }}
+
+====================================
+RESPONSIVE
+====================================
+
+- mobile first
+- responsive sempurna
+- tidak ada overflow horizontal
+- grid collapse rapi
+- adaptive font scaling
+- responsive spacing
+- hamburger mobile menu
+
+GRID:
+- mobile 1 kolom
+- tablet 2 kolom
+- desktop 3–4 kolom
+
+====================================
+OPTIMIZATION
+====================================
+
+Tambahkan:
+- smooth image loading
+- loading skeleton
+- lazy loading
+- reusable components
+- clean code architecture
+- optimized performance
+
+====================================
+OUTPUT
+====================================
+
+Buat semua file lengkap:
+- App.jsx
+- main.jsx
+- routing setup
+- reusable components
+- Tailwind config
+- page transition
+- dummy project data
+- responsive styles
+
+Pastikan:
+- langsung bisa dijalankan dengan:
+  npm install
+  npm run dev
+
+- optimized untuk deployment Replit.com
+- hasil akhir terlihat seperti premium modern agency portfolio website
+
+Tambahkan typography berikut ke dalam website:
+
+TYPOGRAPHY SYSTEM:
+
+Gunakan font:
+
+1. Playfair Display
+- untuk:
+  Heading
+  Subheading
+  Hero title
+  Section title
+  Project title
+
+2. Inter
+- untuk:
+  Body text
+  Paragraph
+  Caption
+  Navigation
+  Button
+  Small text
+
+INSTALL FONT:
+Gunakan Google Fonts atau @import.
+
+Import:
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap');
+
+TAILWIND CONFIG:
+Tambahkan custom font:
+
+fontFamily: {
+  heading: ['"Playfair Display"', 'serif'],
+  body: ['Inter', 'sans-serif'],
+}
+
+STYLE TYPOGRAPHY:
+- Heading menggunakan Playfair Display dengan elegant luxury look
+- Body text menggunakan Inter agar clean modern
+- Gunakan letter spacing premium
+- Gunakan line-height lega
+- Responsive typography scaling
+
+CONTOH:
+Hero Heading:
+- font-heading
+- font-bold
+- tracking-tight
+- leading-[1.1]
+
+Body Text:
+- font-body
+- text-base
+- leading-relaxed
+
+SECTION TITLE:
+Gunakan:
+- Playfair Display
+- ukuran besar
+- elegant spacing
+- semi bold / bold
+
+NAVBAR & BUTTON:
+Gunakan:
+- Inter
+- medium weight
+- clean modern style
+
+Pastikan kombinasi typography terlihat:
+- luxury
+- editorial
+- premium modern portfolio
+- aesthetic minimalist
