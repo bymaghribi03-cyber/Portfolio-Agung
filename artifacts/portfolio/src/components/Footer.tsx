@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { FaInstagram, FaBehance, FaDribbble } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaPinterest } from "react-icons/fa";
 import { FiMail, FiPhone, FiMapPin } from "react-icons/fi";
 import { motion } from "framer-motion";
 
@@ -15,13 +15,15 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               {[
-                { icon: <FaInstagram size={20} />, href: "#", label: "Instagram" },
-                { icon: <FaBehance size={20} />, href: "#", label: "Behance" },
-                { icon: <FaDribbble size={20} />, href: "#", label: "Dribbble" },
+                { icon: <FaInstagram size={20} />, href: "https://www.instagram.com/agungmaghribi/", label: "Instagram" },
+                { icon: <FaLinkedin size={20} />, href: "https://www.linkedin.com/in/agungmaghribi", label: "LinkedIn" },
+                { icon: <FaPinterest size={20} />, href: "https://pin.it/5BXuP9KLK", label: "Pinterest" },
               ].map((s) => (
                 <motion.a
                   key={s.label}
                   href={s.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.2, color: "#B8860B" }}
                   className="text-cream/60 hover:text-gold transition-colors"
                   aria-label={s.label}

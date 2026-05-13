@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { Link } from "wouter";
-import { FaInstagram, FaBehance, FaDribbble, FaFigma } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaPinterest } from "react-icons/fa";
 import { SiAdobeaftereffects, SiAdobeillustrator, SiAdobepremierepro, SiAdobephotoshop, SiCanva } from "react-icons/si";
 import { FiArrowRight, FiMail, FiPhone, FiMapPin, FiSend } from "react-icons/fi";
 import { Video, Palette, Monitor } from "lucide-react";
@@ -127,13 +127,15 @@ export default function Home() {
                 className="flex gap-5"
               >
                 {[
-                  { icon: <FaInstagram size={22} />, href: "#", label: "Instagram" },
-                  { icon: <FaBehance size={22} />, href: "#", label: "Behance" },
-                  { icon: <FaDribbble size={22} />, href: "#", label: "Dribbble" },
+                  { icon: <FaInstagram size={22} />, href: "https://www.instagram.com/agungmaghribi/", label: "Instagram" },
+                  { icon: <FaLinkedin size={22} />, href: "https://www.linkedin.com/in/agungmaghribi", label: "LinkedIn" },
+                  { icon: <FaPinterest size={22} />, href: "https://pin.it/5BXuP9KLK", label: "Pinterest" },
                 ].map((s) => (
                   <motion.a
                     key={s.label}
                     href={s.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     whileHover={{ scale: 1.2, y: -2 }}
                     className="w-11 h-11 rounded-full border border-dark-green/20 flex items-center justify-center text-dark-green/60 hover:text-gold hover:border-gold transition-colors"
                     aria-label={s.label}
@@ -418,13 +420,15 @@ export default function Home() {
 
               <div className="flex gap-4 pt-4">
                 {[
-                  { icon: <FaInstagram size={20} />, label: "Instagram" },
-                  { icon: <FaBehance size={20} />, label: "Behance" },
-                  { icon: <FaDribbble size={20} />, label: "Dribbble" },
+                  { icon: <FaInstagram size={20} />, href: "https://www.instagram.com/agungmaghribi/", label: "Instagram" },
+                  { icon: <FaLinkedin size={20} />, href: "https://www.linkedin.com/in/agungmaghribi", label: "LinkedIn" },
+                  { icon: <FaPinterest size={20} />, href: "https://pin.it/5BXuP9KLK", label: "Pinterest" },
                 ].map((s) => (
                   <motion.a
                     key={s.label}
-                    href="#"
+                    href={s.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     whileHover={{ scale: 1.15, y: -2 }}
                     className="w-11 h-11 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-cream/60 hover:text-gold hover:border-gold transition-all"
                     aria-label={s.label}
