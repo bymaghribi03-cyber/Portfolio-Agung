@@ -62,7 +62,7 @@ export default function Home() {
       <section id="home" className="min-h-screen bg-cream flex items-center pt-24 pb-16">
         <div className="max-w-7xl mx-auto px-6 w-full">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div className="text-[17px] font-medium">
+            <div>
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
