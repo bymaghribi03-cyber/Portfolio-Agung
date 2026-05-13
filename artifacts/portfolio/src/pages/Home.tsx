@@ -76,12 +76,11 @@ export default function Home() {
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, delay: 0.1 }}
-                className="font-heading text-5xl md:text-6xl lg:text-7xl font-bold text-dark-green leading-[1.05] tracking-tight mb-6"
+                className="font-heading md:text-6xl lg:text-7xl font-bold text-dark-green tracking-tight mb-6 mr-[-65px] text-[71px]"
                 data-testid="hero-heading"
               >
                 I'm{" "}
-                <span className="text-gold italic">Agung</span>{" "}
-                Maghribi,{" "}
+                <span className="text-gold italic">Agung Maghribi</span>{" "}
                 <span className="block mt-1">Video Editor,</span>
                 <span className="block">&amp; Graphic Designer.</span>
                 <span className="block text-4xl md:text-5xl lg:text-5xl mt-2 font-medium text-dark-green/70">
@@ -167,7 +166,7 @@ export default function Home() {
                     <img
                       src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80"
                       alt="Agung Maghribi"
-                      className={`w-full h-full object-cover transition-opacity duration-500 ${imageLoaded ? "opacity-100" : "opacity-0"}`}
+                      className={`w-full h-full object-cover transition-opacity duration-500 pl-[0px] pr-[0px] ml-[-1px] mr-[-1px] ${imageLoaded ? "opacity-100" : "opacity-0"}`}
                       onLoad={() => setImageLoaded(true)}
                       data-testid="hero-profile-img"
                     />
@@ -198,10 +197,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* MARQUEE */}
       <MarqueeSection />
-
       {/* SERVICES */}
       <section id="services" className="py-24 bg-cream">
         <div className="max-w-7xl mx-auto px-6">
@@ -228,7 +225,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* ABOUT */}
       <section id="about" className="py-24 bg-dark-green">
         <div className="max-w-7xl mx-auto px-6">
@@ -310,7 +306,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* TOOLS */}
       <section id="tools" className="py-24 bg-cream">
         <div className="max-w-7xl mx-auto px-6">
@@ -338,7 +333,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* PROJECTS */}
       <section id="projects" className="py-24 bg-cream">
         <div className="max-w-7xl mx-auto px-6">
@@ -368,10 +362,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* TESTIMONIALS */}
       <TestimonialSlider />
-
       {/* CONTACT */}
       <section id="contact" className="py-24 bg-dark-green">
         <div className="max-w-7xl mx-auto px-6">
