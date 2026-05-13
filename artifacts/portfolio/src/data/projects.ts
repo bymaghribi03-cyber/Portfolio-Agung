@@ -3,28 +3,28 @@ export const videoProjects = [
     id: 1,
     title: "Cinematic Travel Vlog",
     description: "A stunning journey through the mountains of Kyoto.",
-    thumbnail: "https://images.unsplash.com/photo-1518131672697-613becd4fab5?w=800&q=80",
+    thumbnail: "/thumb1.png",
     url: "https://www.youtube.com/watch?v=BjwLMlkXeJc"
   },
   {
     id: 2,
     title: "Commercial Product Shoot",
     description: "High-end product videography for a luxury watch brand.",
-    thumbnail: "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=800&q=80",
+    thumbnail: "/thumb2.png",
     url: "https://www.youtube.com/watch?v=G5I4U8G9JJM"
   },
   {
     id: 3,
     title: "Music Video Production",
     description: "Creative direction and editing for an indie artist.",
-    thumbnail: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&q=80",
+    thumbnail: "/thumb3.png",
     url: "https://www.youtube.com/watch?v=G5I4U8G9JJM"
   },
   {
     id: 4,
     title: "Documentary Short",
     description: "Award-winning short documentary about local artisans.",
-    thumbnail: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&q=80",
+    thumbnail: "/thumb4.png",
     url: "https://www.youtube.com/watch?v=G5I4U8G9JJM"
   }
 ];
