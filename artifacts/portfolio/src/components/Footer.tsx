@@ -92,7 +92,7 @@ export function Footer() {
 
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-cream/40 text-sm">
-            © 2024 Agung Maghribi. All rights reserved.
+            © 2026 Agung Maghribi. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link href="/projects/video-editing" className="text-cream/40 hover:text-gold text-sm transition-colors">

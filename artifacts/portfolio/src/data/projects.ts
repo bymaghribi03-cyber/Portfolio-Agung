@@ -23,6 +23,30 @@ export const videoProjects = [
     thumbnail: "/thumb4.png",
     url: "https://www.youtube.com/watch?v=G5I4U8G9JJM"
   },
+  {
+    id: 5,
+    title: "Tampilan Baru E-Learning UAD",
+    thumbnail: "/thumb1.png",
+    url: "https://www.youtube.com/watch?v=BjwLMlkXeJc"
+  },
+  {
+    id: 6,
+    title: "Video Profil Program Studi Biologi Universitas Ahmad Dahlan",
+    thumbnail: "/thumb2.png",
+    url: "https://www.youtube.com/watch?v=uMS4f_VaUhA"
+  },
+  {
+    id: 7,
+    title: "Video Profil Fakultas Sains dan Teknologi Terapan 2024",
+    thumbnail: "/thumb3.png",
+    url: "https://www.youtube.com/watch?v=0Dy2cnId2fY&t=179s"
+  },
+  {
+    id: 8,
+    title: "Adhitia Sofyan-Sesuatu di Jogja (Cover by FAST Lecturer)",
+    thumbnail: "/thumb4.png",
+    url: "https://www.youtube.com/watch?v=G5I4U8G9JJM"
+  },
 ];
 
 export const reelsProjects = [
