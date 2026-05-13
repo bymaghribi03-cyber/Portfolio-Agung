@@ -43,16 +43,16 @@ export default function VideoEditing() {
         </motion.div>
 
         {/* YouTube Videos Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-24">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-20">
           {videoProjects.map((project, i) => (
             <motion.div
               key={project.id}
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1 + i * 0.1 }}
+              transition={{ delay: 0.1 + i * 0.08 }}
               onHoverStart={() => setHoveredId(project.id)}
               onHoverEnd={() => setHoveredId(null)}
-              className="group relative rounded-2xl overflow-hidden bg-white shadow-sm hover:shadow-xl hover:shadow-dark-green/10 transition-all duration-300"
+              className="group relative rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-lg hover:shadow-dark-green/10 transition-all duration-300"
               data-testid={`video-card-${project.id}`}
             >
               <div className="relative aspect-video overflow-hidden">
@@ -66,23 +66,23 @@ export default function VideoEditing() {
                   <motion.div
                     initial={{ scale: 0.8 }}
                     whileHover={{ scale: 1 }}
-                    className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm border border-white/40 flex items-center justify-center text-white"
+                    className="w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm border border-white/40 flex items-center justify-center text-white"
                   >
-                    <FiPlay size={28} className="ml-1" />
+                    <FiPlay size={18} className="ml-0.5" />
                   </motion.div>
                 </div>
               </div>
 
-              <div className="p-6">
-                <h3 className="font-heading text-xl font-semibold text-dark-green mb-2">{project.title}</h3>
+              <div className="p-3">
+                <h3 className="font-heading text-sm font-semibold text-dark-green mb-2 line-clamp-2 leading-snug">{project.title}</h3>
                 <a
                   href={project.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-6 py-2.5 bg-dark-green text-cream text-sm font-medium rounded-full hover:bg-gold transition-colors duration-300"
+                  className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-dark-green text-cream text-xs font-medium rounded-full hover:bg-gold transition-colors duration-300"
                   data-testid={`video-watch-btn-${project.id}`}
                 >
-                  Watch on YouTube <FiExternalLink size={14} />
+                  Watch <FiExternalLink size={11} />
                 </a>
               </div>
             </motion.div>
