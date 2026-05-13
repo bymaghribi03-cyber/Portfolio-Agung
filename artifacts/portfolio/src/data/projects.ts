@@ -4,7 +4,7 @@ export const videoProjects = [
     title: "Cinematic Travel Vlog",
     description: "A stunning journey through the mountains of Kyoto.",
     thumbnail: "https://images.unsplash.com/photo-1518131672697-613becd4fab5?w=800&q=80",
-    url: "https://youtube.com/watch?v=dummy1"
+    url: "https://www.youtube.com/watch?v=BjwLMlkXeJc"
   },
   {
     id: 2,
