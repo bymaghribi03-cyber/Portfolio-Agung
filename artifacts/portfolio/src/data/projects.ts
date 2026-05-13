@@ -61,14 +61,26 @@ export const reelsProjects = [
 
 export const graphicDesignProjects = [
   { id: 1, src: "/social1.png", title: "Fast Info", category: "Social Media" },
-  { id: 2, src: "/social2.png", title: "Group 368686", category: "Social Media" },
-  { id: 3, src: "/social3.png", title: "Group 370190", category: "Social Media" },
+  { id: 2, src: "/social2.png", title: "Event Poster", category: "Poster" },
+  { id: 3, src: "/social3.png", title: "Event Info", category: "Social Media" },
   { id: 4, src: "/social4.png", title: "PILMAPRES", category: "Poster" },
   { id: 5, src: "/social5.png", title: "Pray Together", category: "Social Media" },
   { id: 6, src: "/social6.png", title: "Selamat Datang MABA 2024", category: "Social Media" },
   { id: 7, src: "/social7.png", title: "Selamat Menempuh Perkuliahan", category: "Social Media" },
   { id: 8, src: "/social8.png", title: "UAS Genap 2026", category: "Social Media" },
   { id: 9, src: "/social9.png", title: "UAS Genap 2026", category: "Social Media" },
+  { id: 10, src: "/social10.png", title: "Cara Konsumsi Collagen DVN", category: "Social Media" },
+  { id: 11, src: "/social11.png", title: "DVN Bahan-bahan Sehat", category: "Social Media" },
+  { id: 12, src: "/social12.png", title: "DVN Solusi Tepat Cantik Awet Muda", category: "Social Media" },
+  { id: 13, src: "/social13.png", title: "DVN Kulit Bersih & Glowing", category: "Social Media" },
+  { id: 14, src: "/social14.png", title: "Mau Awet Muda Tapi Nggak Ribet?", category: "Social Media" },
+  { id: 15, src: "/social15.png", title: "3 Alasan Harus Konsumsi Collagen", category: "Social Media" },
+  { id: 16, src: "/social16.png", title: "DVN Collagen - Cantik dari Dalam", category: "Social Media" },
+  { id: 17, src: "/social17.png", title: "DVN Promo Ramadan", category: "Social Media" },
+  { id: 18, src: "/social18.png", title: "ConFAST General Lecture", category: "Poster" },
+  { id: 19, src: "/social19.png", title: "Startup Goes to Campus", category: "Poster" },
+  { id: 20, src: "/social20.png", title: "Pengajian Buka Bersama FAST", category: "Poster" },
+  { id: 21, src: "/social21.png", title: "Penerimaan Mahasiswa Baru KIP-Kuliah", category: "Social Media" },
 ];
 
 export const uiDesignProjects = [
