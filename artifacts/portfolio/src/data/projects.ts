@@ -26,26 +26,26 @@ export const videoProjects = [
   {
     id: 5,
     title: "Tampilan Baru E-Learning UAD",
-    thumbnail: "/thumb1.png",
-    url: "https://www.youtube.com/watch?v=BjwLMlkXeJc"
+    thumbnail: "/thumb5.jpg",
+    url: "https://www.youtube.com/watch?v=ZTwQ5dQ2hNQ"
   },
   {
     id: 6,
-    title: "Video Profil Program Studi Biologi Universitas Ahmad Dahlan",
-    thumbnail: "/thumb2.png",
-    url: "https://www.youtube.com/watch?v=uMS4f_VaUhA"
+    title: "Gembira FCC Family Day 2024",
+    thumbnail: "/thumb6.png",
+    url: "https://www.youtube.com/watch?v=5kn53E5xNI4"
   },
   {
     id: 7,
-    title: "Video Profil Fakultas Sains dan Teknologi Terapan 2024",
-    thumbnail: "/thumb3.png",
-    url: "https://www.youtube.com/watch?v=0Dy2cnId2fY&t=179s"
+    title: "After Movie Upacara HUT RI",
+    thumbnail: "/thumb7.png",
+    url: "https://drive.google.com/file/d/1WwQClpqqoTtbLztQfvJy9SG3bbPZeBXl/view?usp=sharing"
   },
   {
     id: 8,
-    title: "Adhitia Sofyan-Sesuatu di Jogja (Cover by FAST Lecturer)",
-    thumbnail: "/thumb4.png",
-    url: "https://www.youtube.com/watch?v=G5I4U8G9JJM"
+    title: "Video kegiatan Training dan Sertifikasi PLTS Warung energi PT Blue",
+    thumbnail: "/thumb8.png",
+    url: "https://www.youtube.com/watch?v=mwFKA7v7uuM"
   },
 ];
 
