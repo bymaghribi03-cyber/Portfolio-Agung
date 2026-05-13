@@ -78,7 +78,7 @@ export default function Home() {
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, delay: 0.1 }}
-                className="font-heading md:text-6xl lg:text-7xl font-bold text-dark-green tracking-tight text-[71px] mr-[-68px] mb-[23px] border-t-[0px] border-r-[0px] border-b-[0px] border-l-[0px]"
+                className="font-heading md:text-6xl lg:text-7xl font-bold text-dark-green tracking-tight mr-[-68px] mb-[23px] border-t-[0px] border-r-[0px] border-b-[0px] border-l-[0px] text-[60px]"
                 data-testid="hero-heading"
               >
                 I'm{" "}
