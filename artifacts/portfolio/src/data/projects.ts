@@ -1,32 +1,38 @@
 export const videoProjects = [
   {
     id: 1,
-    title: "Cinematic Travel Vlog",
-    description: "A stunning journey through the mountains of Kyoto.",
+    title: "Tampilan Baru E-Learning UAD",
     thumbnail: "/thumb1.png",
     url: "https://www.youtube.com/watch?v=BjwLMlkXeJc"
   },
   {
     id: 2,
-    title: "Commercial Product Shoot",
-    description: "High-end product videography for a luxury watch brand.",
+    title: "Video Profil Program Studi Biologi Universitas Ahmad Dahlan",
     thumbnail: "/thumb2.png",
-    url: "https://www.youtube.com/watch?v=G5I4U8G9JJM"
+    url: "https://www.youtube.com/watch?v=uMS4f_VaUhA"
   },
   {
     id: 3,
-    title: "Music Video Production",
-    description: "Creative direction and editing for an indie artist.",
+    title: "Video Profil Fakultas Sains dan Teknologi Terapan 2024",
     thumbnail: "/thumb3.png",
-    url: "https://www.youtube.com/watch?v=G5I4U8G9JJM"
+    url: "https://www.youtube.com/watch?v=0Dy2cnId2fY&t=179s"
   },
   {
     id: 4,
-    title: "Documentary Short",
-    description: "Award-winning short documentary about local artisans.",
+    title: "Adhitia Sofyan-Sesuatu di Jogja (Cover by FAST Lecturer)",
     thumbnail: "/thumb4.png",
     url: "https://www.youtube.com/watch?v=G5I4U8G9JJM"
-  }
+  },
+];
+
+export const reelsProjects = [
+  {
+    id: 1,
+    title: "Instagram Reel #1",
+    description: "Short-form creative content.",
+    thumbnail: "/thumb1.png",
+    url: "https://www.instagram.com/agungmaghribi/",
+  },
 ];
 
 export const graphicDesignProjects = [
