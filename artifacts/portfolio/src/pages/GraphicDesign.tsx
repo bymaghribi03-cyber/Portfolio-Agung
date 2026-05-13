@@ -5,7 +5,7 @@ import { useState } from "react";
 import { graphicDesignProjects } from "../data/projects";
 import { LightboxModal } from "../components/LightboxModal";
 
-const categories = ["All", "Poster", "Branding", "Social Media", "Banner"];
+const categories = ["All", "Social Media", "Poster"];
 
 export default function GraphicDesign() {
   const [lightboxOpen, setLightboxOpen] = useState(false);
@@ -88,11 +88,12 @@ export default function GraphicDesign() {
             >
               <img
                 src={project.src}
-                alt={project.category}
-                className="w-full object-cover transition-transform duration-700 group-hover:scale-110"
+                alt={project.title}
+                className="w-full h-auto block transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-dark-green/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-5">
+              <div className="absolute inset-0 bg-dark-green/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-start justify-end p-5 gap-2">
+                <span className="text-cream text-sm font-semibold leading-snug">{project.title}</span>
                 <span className="px-3 py-1 bg-gold text-white text-xs font-semibold rounded-full">
                   {project.category}
                 </span>

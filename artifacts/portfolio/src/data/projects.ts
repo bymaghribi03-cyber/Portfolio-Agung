@@ -60,12 +60,15 @@ export const reelsProjects = [
 ];
 
 export const graphicDesignProjects = [
-  { id: 1, src: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&q=80", category: "Poster" },
-  { id: 2, src: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80", category: "Social Media" },
-  { id: 3, src: "https://images.unsplash.com/photo-1583847268964-b28ce8f31161?w=800&q=80", category: "Branding" },
-  { id: 4, src: "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?w=800&q=80", category: "Banner" },
-  { id: 5, src: "https://images.unsplash.com/photo-1626126525124-749e7af753a4?w=800&q=80", category: "Poster" },
-  { id: 6, src: "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&q=80", category: "Social Media" },
+  { id: 1, src: "/social1.png", title: "Fast Info", category: "Social Media" },
+  { id: 2, src: "/social2.png", title: "Group 368686", category: "Social Media" },
+  { id: 3, src: "/social3.png", title: "Group 370190", category: "Social Media" },
+  { id: 4, src: "/social4.png", title: "PILMAPRES", category: "Poster" },
+  { id: 5, src: "/social5.png", title: "Pray Together", category: "Social Media" },
+  { id: 6, src: "/social6.png", title: "Selamat Datang MABA 2024", category: "Social Media" },
+  { id: 7, src: "/social7.png", title: "Selamat Menempuh Perkuliahan", category: "Social Media" },
+  { id: 8, src: "/social8.png", title: "UAS Genap 2026", category: "Social Media" },
+  { id: 9, src: "/social9.png", title: "UAS Genap 2026", category: "Social Media" },
 ];
 
 export const uiDesignProjects = [
