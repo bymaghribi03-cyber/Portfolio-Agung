@@ -1,9 +1,9 @@
 export function MarqueeSection() {
   const items = [
-    "App Design", "Website Design", "Dashboard", "Wireframe",
-    "Motion Graphics", "Video Editing", "Brand Identity", "UI/UX",
-    "App Design", "Website Design", "Dashboard", "Wireframe",
-    "Motion Graphics", "Video Editing", "Brand Identity", "UI/UX",
+    "Welcome to", "Portofolio", "Agung Nur Maghribi",
+    "Welcome to", "Portofolio", "Agung Nur Maghribi",
+    "Welcome to", "Portofolio", "Agung Nur Maghribi",
+    "Welcome to", "Portofolio", "Agung Nur Maghribi",
   ];
 
   return (

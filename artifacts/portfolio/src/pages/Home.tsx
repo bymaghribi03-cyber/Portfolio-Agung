@@ -33,9 +33,9 @@ const tools = [
 ];
 
 const floatingBadges = [
-  { label: "UI/UX Designer", top: "10%", right: "-5%" },
-  { label: "Videographer", top: "50%", right: "-12%" },
-  { label: "Video Editor", bottom: "15%", left: "-10%" },
+  { label: "Video Editor", top: "15%", right: "7%" },
+  { label: "UI Designer", top: "60%", right: "-12%" },
+  { label: "Graphic designer", bottom: "55%", left: "-10%" },
 ];
 
 const stats = [
@@ -62,7 +62,7 @@ export default function Home() {
       <section id="home" className="min-h-screen bg-cream flex items-center pt-24 pb-16">
         <div className="max-w-7xl mx-auto px-6 w-full">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div>
+            <div className="text-[17px] font-medium">
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -96,7 +96,7 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="text-dark-green/60 text-lg leading-relaxed mb-10 max-w-lg"
               >
-                I craft compelling visual stories through motion, design, and digital experience. With 3+ years of experience in video editing, graphic design, and UI/UX, I turn ideas into premium creative work.
+                I’m a creative visual professional with 4+ years of experience in video editing, videography, and graphic design. Passionate about turning ideas into impactful and engaging visual content.
               </motion.p>
 
               <motion.div
