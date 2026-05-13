@@ -57,7 +57,7 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-center gap-3 text-cream/60 text-sm">
                 <FiMail className="text-gold shrink-0" />
-                <span>agung@creative.id</span>
+                <span>agungmaghribi1009@gmail.com</span>
               </li>
               <li className="flex items-center gap-3 text-cream/60 text-sm">
                 <FiPhone className="text-gold shrink-0" />

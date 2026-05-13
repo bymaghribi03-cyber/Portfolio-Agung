@@ -397,7 +397,7 @@ export default function Home() {
               className="space-y-8"
             >
               {[
-                { icon: <FiMail />, label: "Email", value: "agung@creative.id" },
+                { icon: <FiMail />, label: "Email", value: "agungmaghribi1009@gmail.com" },
                 { icon: <FiPhone />, label: "Phone", value: "+62 812 3456 7890" },
                 { icon: <FiMapPin />, label: "Location", value: "Yogyakarta, Indonesia" },
               ].map((item) => (
