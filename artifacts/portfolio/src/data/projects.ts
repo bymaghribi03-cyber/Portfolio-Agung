@@ -11,21 +11,21 @@ export const videoProjects = [
     title: "Commercial Product Shoot",
     description: "High-end product videography for a luxury watch brand.",
     thumbnail: "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=800&q=80",
-    url: "https://youtube.com/watch?v=dummy2"
+    url: "https://www.youtube.com/watch?v=G5I4U8G9JJM"
   },
   {
     id: 3,
     title: "Music Video Production",
     description: "Creative direction and editing for an indie artist.",
     thumbnail: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&q=80",
-    url: "https://youtube.com/watch?v=dummy3"
+    url: "https://www.youtube.com/watch?v=G5I4U8G9JJM"
   },
   {
     id: 4,
     title: "Documentary Short",
     description: "Award-winning short documentary about local artisans.",
     thumbnail: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&q=80",
-    url: "https://youtube.com/watch?v=dummy4"
+    url: "https://www.youtube.com/watch?v=G5I4U8G9JJM"
   }
 ];
 
