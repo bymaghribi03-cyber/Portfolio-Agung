@@ -155,7 +155,7 @@ export default function Home() {
               >
                 <div className="absolute inset-0 rounded-[3rem] bg-gold/10 blur-3xl scale-110" />
                 <div className="absolute -inset-3 rounded-[3rem] border-2 border-gold/20 rotate-3" />
-                <div className="absolute -inset-6 rounded-[3rem] border border-gold/10 -rotate-3" />
+                <div className="absolute -inset-6 rounded-[3rem] border border-gold/10 -rotate-3 ml-[0px] mr-[0px] pl-[0px] pr-[0px]" />
 
                 <motion.div
                   animate={{ y: [0, -8, 0] }}
