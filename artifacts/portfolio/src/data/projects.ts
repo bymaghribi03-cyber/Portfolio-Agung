@@ -50,13 +50,26 @@ export const videoProjects = [
 ];
 
 export const reelsProjects = [
-  {
-    id: 1,
-    title: "Instagram Reel #1",
-    description: "Short-form creative content.",
-    thumbnail: "/thumb1.png",
-    url: "https://www.instagram.com/agungmaghribi/",
-  },
+  { id: 1, title: "Digital Synergy Night - SVO Indonesia", thumbnail: "/reel1.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 2, title: "Digital Entrepreneur Conference 2025", thumbnail: "/reel2.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 3, title: "Student Life Content", thumbnail: "/reel3.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 4, title: "Mengenal PT. AMK", thumbnail: "/reel4.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 5, title: "Testimoni Mahasiswa Penerima Beasiswa", thumbnail: "/reel5.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 6, title: "SVO Talk - Cerita Teman Kantor", thumbnail: "/reel6.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 7, title: "Lulusan Fisika UAD Jadi Apa?", thumbnail: "/reel7.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 8, title: "SVO Talk - 20 Tahun Main Ads?", thumbnail: "/reel8.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 9, title: "Info Prodi FAST UAD", thumbnail: "/reel9.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 10, title: "Boosting Repet Sales - Sharing Session", thumbnail: "/reel10.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 11, title: "Jangan Salah Beli Bio Lingzhi Pro", thumbnail: "/reel11.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 12, title: "Bio Lingzhi Pro Original", thumbnail: "/reel12.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 13, title: "Kata Mereka Tentang E-Learning UAD", thumbnail: "/reel13.jpg", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 14, title: "Gembira FCC Family Day 2024", thumbnail: "/reel14.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 15, title: "After Movie Upacara HUT RI", thumbnail: "/reel15.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 16, title: "Kegiatan Training PLTS Blue Energy", thumbnail: "/reel16.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 17, title: "Xavore Boswellia Product Reel", thumbnail: "/reel17.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 18, title: "Hari Fakultas P2K FAST UAD", thumbnail: "/reel18.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 19, title: "Nonton Bareng Bioskop - SVO Team Bonding", thumbnail: "/reel19.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 20, title: "Udah Pakai Skincare Mahal, Tapi Kulit Tetap...", thumbnail: "/reel20.png", url: "https://www.instagram.com/agungmaghribi/" },
 ];
 
 export const graphicDesignProjects = [
