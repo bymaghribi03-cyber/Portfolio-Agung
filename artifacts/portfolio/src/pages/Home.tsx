@@ -284,7 +284,7 @@ export default function Home() {
               <p className="text-cream/70 leading-relaxed mb-10">
                 I enjoy turning ideas into visuals with clear stories and purpose. From concept development and production to final editing, I always aim to create work that not only looks good but also communicates the message effectively.
                 </p>
-                <p className="text-cream/70 leading-relaxed mb-10">
+                <p className="text-cream/70 leading-relaxed mb-10 mt-[-20px]">
                 Based in Yogyakarta, I believe that strong visuals can help a brand stand out and build a closer connection with its audience.
               </p>
 
