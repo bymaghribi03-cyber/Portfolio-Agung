@@ -3,3 +3,5 @@ pages_build_output_dir = "artifacts/portfolio/dist/public"
 
 [build]
 command = "pnpm --filter @workspace/portfolio run build"
+# wrangler.toml
+name = 'portfolio-agung-maghribi'
