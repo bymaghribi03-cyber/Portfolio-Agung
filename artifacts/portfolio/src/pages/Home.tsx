@@ -33,7 +33,7 @@ const tools = [
 ];
 
 const floatingBadges = [
-  { label: "Video Editor", top: "15%", right: "10%" },
+  { label: "Video Editor", top: "15%", right: "%" },
   { label: "UI Designer", top: "60%", right: "-12%" },
   { label: "Graphic designer", bottom: "55%", left: "-10%" },
 ];
