@@ -33,15 +33,15 @@ const tools = [
 ];
 
 const floatingBadges = [
-  { label: "Video Editor", top: "15%", right: "%" },
+  { label: "Video Editor", top: "15%", right: "-10%" },
   { label: "UI Designer", top: "60%", right: "-12%" },
-  { label: "Graphic designer", bottom: "55%", left: "-10%" },
+  { label: "Graphic designer", bottom: "55%", left: "-18%" },
 ];
 
 const stats = [
-  { value: "3+", label: "Years Experience" },
-  { value: "50+", label: "Projects Done" },
-  { value: "20+", label: "Happy Clients" },
+  { value: "4+", label: "Years Experience" },
+  { value: "100+", label: "Projects Done" },
+  { value: "50+", label: "Happy Clients" },
 ];
 
 export default function Home() {
@@ -78,7 +78,7 @@ export default function Home() {
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, delay: 0.1 }}
-                className="font-heading md:text-6xl lg:text-7xl font-bold text-dark-green tracking-tight mr-[-68px] mb-[23px] border-t-[0px] border-r-[0px] border-b-[0px] border-l-[0px] text-[60px]"
+                className="font-heading md:text-6xl lg:text-7xl font-bold text-dark-green tracking-tight mr-[-68px] mb-[23px] border-t-[0px] border-r-[0px] border-b-[0px] border-l-[0px] text-[55px]"
                 data-testid="hero-heading"
               >
                 I'm{" "}
@@ -94,7 +94,7 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="text-dark-green/60 text-lg leading-relaxed mb-10 max-w-lg pl-[0px] pr-[0px] mr-[0px]"
-              >I’m a creative visual professional with 4+ years of experience in video editing, videography, and graphic design. Passionate about turning ideas into impactful and engaging visual content.</motion.p>
+              >I’m a creative visual professional with 5+ years of experience in video editing, videography, and graphic design. Passionate about turning ideas into impactful and engaging visual content.</motion.p>
 
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
@@ -279,10 +279,13 @@ export default function Home() {
                 <em className="text-gold not-italic">Agung?</em>
               </h2>
               <p className="text-cream/70 leading-relaxed mb-4">
-                I am a Video Editor, Videographer, and Graphic Designer focused on creating engaging and impactful creative solutions. With 3+ years of experience crafting projects from concept to completion, I am dedicated to producing work that inspires and delivers.
+                I’m Agung Nur Maghribi, a creative visual professional focused on video editing, videography, and graphic design. For the past 5 years, I have been helping brands, businesses, and content creators create visual content that is engaging, professional, and easy for audiences to connect with.
               </p>
               <p className="text-cream/70 leading-relaxed mb-10">
-                Based in Yogyakarta, I work with brands, startups, and agencies to bring their visual stories to life — through motion, print, and digital design. My approach combines technical precision with an editorial eye for aesthetics.
+                I enjoy turning ideas into visuals with clear stories and purpose. From concept development and production to final editing, I always aim to create work that not only looks good but also communicates the message effectively.
+                </p>
+                <p className="text-cream/70 leading-relaxed mb-10">
+                Based in Yogyakarta, I believe that strong visuals can help a brand stand out and build a closer connection with its audience.
               </p>
 
               <div className="grid grid-cols-3 gap-6 mb-10">
