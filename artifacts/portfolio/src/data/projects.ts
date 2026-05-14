@@ -84,6 +84,9 @@ export const reelsProjects = [
   { id: 32, title: "Lifestyle - Outdoor Content", thumbnail: "/reel32.png", url: "https://www.instagram.com/agungmaghribi/" },
   { id: 33, title: "Product Unboxing Reel", thumbnail: "/reel33.png", url: "https://www.instagram.com/agungmaghribi/" },
   { id: 34, title: "Xavore Nafisa - Product Shoot", thumbnail: "/reel34.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 35, title: "Testimoni Training dan Sertifikasi ESDM-DJK", thumbnail: "/reel35.jpg", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 36, title: "UAD Fair 2022 - Day 1", thumbnail: "/reel36.jpg", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 37, title: "Game Seru Tim Cowok vs Tim Cewek - SVO Yogyakarta", thumbnail: "/reel37.jpg", url: "https://www.instagram.com/agungmaghribi/" },
 ];
 
 export const graphicDesignProjects = [
