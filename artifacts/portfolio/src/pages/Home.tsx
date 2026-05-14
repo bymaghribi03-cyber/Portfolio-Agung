@@ -93,10 +93,8 @@ export default function Home() {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="text-dark-green/60 text-lg leading-relaxed mb-10 max-w-lg"
-              >
-                I craft compelling visual stories through motion, design, and digital experience. With 3+ years of experience in video editing, graphic design, and UI/UX, I turn ideas into premium creative work.
-              </motion.p>
+                className="text-dark-green/60 text-lg leading-relaxed mb-10 max-w-lg pl-[0px] pr-[0px] mr-[0px]"
+              >I’m a creative visual professional with 4+ years of experience in video editing, videography, and graphic design. Passionate about turning ideas into impactful and engaging visual content.</motion.p>
 
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
