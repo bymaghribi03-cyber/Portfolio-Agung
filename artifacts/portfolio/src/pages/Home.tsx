@@ -33,7 +33,7 @@ const tools = [
 ];
 
 const floatingBadges = [
-  { label: "Video Editor", top: "15%", right: "7%" },
+  { label: "Video Editor", top: "15%", right: "10%" },
   { label: "UI Designer", top: "60%", right: "-12%" },
   { label: "Graphic designer", bottom: "55%", left: "-10%" },
 ];
@@ -83,8 +83,7 @@ export default function Home() {
               >
                 I'm{" "}
                 <span className="text-gold italic">Agung Maghribi</span>{" "}
-                <span className="block mt-1">Video Editor,</span>
-                <span className="block">&amp; Graphic Designer.</span>
+                <span className="block mt-1">Creative Visual Specialist</span>
                 <span className="block text-4xl md:text-5xl lg:text-5xl mt-2 font-medium text-dark-green/70">
                   Based in Yogyakarta.
                 </span>
@@ -96,7 +95,7 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="text-dark-green/60 text-lg leading-relaxed mb-10 max-w-lg"
               >
-                I’m a creative visual professional with 4+ years of experience in video editing, videography, and graphic design. Passionate about turning ideas into impactful and engaging visual content.
+                I craft compelling visual stories through motion, design, and digital experience. With 3+ years of experience in video editing, graphic design, and UI/UX, I turn ideas into premium creative work.
               </motion.p>
 
               <motion.div
