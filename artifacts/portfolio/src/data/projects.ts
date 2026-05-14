@@ -70,6 +70,20 @@ export const reelsProjects = [
   { id: 18, title: "Hari Fakultas P2K FAST UAD", thumbnail: "/reel18.png", url: "https://www.instagram.com/agungmaghribi/" },
   { id: 19, title: "Nonton Bareng Bioskop - SVO Team Bonding", thumbnail: "/reel19.png", url: "https://www.instagram.com/agungmaghribi/" },
   { id: 20, title: "Udah Pakai Skincare Mahal, Tapi Kulit Tetap...", thumbnail: "/reel20.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 21, title: "Fun Weekend - SVO Indonesia", thumbnail: "/reel21.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 22, title: "Japanese Knotweed - Manfaatnya Bikin Kaget!", thumbnail: "/reel22.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 23, title: "Masak Besar dan Berbagi Berkah ft. Bobon Santoso", thumbnail: "/reel23.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 24, title: "Merdeka Fest - SVO Yogyakarta Umbulharjo", thumbnail: "/reel24.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 25, title: "Cara Bedakan Bio Lingzhi Pro Asli/Palsu", thumbnail: "/reel25.jpg", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 26, title: "2026 - Bunda Siap Glowing di Tahun Baru?", thumbnail: "/reel26.jpg", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 27, title: "Testimoni Training & Sertifikasi ESDM-DJK", thumbnail: "/reel27.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 28, title: "ROAS Gede Tapi Tetap Rugi?", thumbnail: "/reel28.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 29, title: "FAST UAD - Reaksi Dosen", thumbnail: "/reel29.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 30, title: "Jangan Sampai Salah Beli - Bio Lingzhi Pro", thumbnail: "/reel30.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 31, title: "Skincare Routine Content", thumbnail: "/reel31.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 32, title: "Lifestyle - Outdoor Content", thumbnail: "/reel32.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 33, title: "Product Unboxing Reel", thumbnail: "/reel33.png", url: "https://www.instagram.com/agungmaghribi/" },
+  { id: 34, title: "Xavore Nafisa - Product Shoot", thumbnail: "/reel34.png", url: "https://www.instagram.com/agungmaghribi/" },
 ];
 
 export const graphicDesignProjects = [
