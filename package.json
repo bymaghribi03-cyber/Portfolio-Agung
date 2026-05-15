@@ -8,6 +8,8 @@
     "pnpm": ">=10"
   },
   "scripts": {
+  "build": "vite build"
+}
   "preinstall": "...",
   "build": "pnpm run typecheck && pnpm -r --if-present run build",
   "build:portfolio": "pnpm --filter @workspace/portfolio run build",
