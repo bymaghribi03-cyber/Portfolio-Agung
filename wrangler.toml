@@ -1,2 +1,5 @@
-# wrangler.toml
-name = 'portfolio-agung-maghribi'
+name = "portfolio-agung"
+compatibility_date = "2026-05-15"
+
+[assets]
+directory = "./portfolio/dist"
